@@ -14,6 +14,8 @@
 		D80E506B28CA81450020A6EC /* LongTabImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E506A28CA81450020A6EC /* LongTabImageTests.swift */; };
 		D80E507528CA81450020A6EC /* LongTabImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E507428CA81450020A6EC /* LongTabImageUITests.swift */; };
 		D80E507728CA81450020A6EC /* LongTabImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E507628CA81450020A6EC /* LongTabImageUITestsLaunchTests.swift */; };
+		D80E508428CA87AA0020A6EC /* AppStoreAppDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E508328CA87AA0020A6EC /* AppStoreAppDownloadView.swift */; };
+		D80E508628CA8B400020A6EC /* ImageSavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E508528CA8B400020A6EC /* ImageSavedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D80E507028CA81450020A6EC /* LongTabImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongTabImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80E507428CA81450020A6EC /* LongTabImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTabImageUITests.swift; sourceTree = "<group>"; };
 		D80E507628CA81450020A6EC /* LongTabImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTabImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D80E508328CA87AA0020A6EC /* AppStoreAppDownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAppDownloadView.swift; sourceTree = "<group>"; };
+		D80E508528CA8B400020A6EC /* ImageSavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSavedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				D80E505928CA81430020A6EC /* LongTabImageApp.swift */,
 				D80E505B28CA81430020A6EC /* ContentView.swift */,
+				D80E508528CA8B400020A6EC /* ImageSavedView.swift */,
+				D80E508328CA87AA0020A6EC /* AppStoreAppDownloadView.swift */,
 				D80E505D28CA81450020A6EC /* Assets.xcassets */,
 				D80E505F28CA81450020A6EC /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80E508628CA8B400020A6EC /* ImageSavedView.swift in Sources */,
+				D80E508428CA87AA0020A6EC /* AppStoreAppDownloadView.swift in Sources */,
 				D80E505C28CA81430020A6EC /* ContentView.swift in Sources */,
 				D80E505A28CA81430020A6EC /* LongTabImageApp.swift in Sources */,
 			);
@@ -420,6 +428,7 @@
 				DEVELOPMENT_TEAM = DGQF7U2G36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Image Saved?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +458,7 @@
 				DEVELOPMENT_TEAM = DGQF7U2G36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Image Saved?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

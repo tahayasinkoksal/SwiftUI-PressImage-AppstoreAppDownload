@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selectedView = true
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       
+        VStack{
+            Button {
+                selectedView.toggle()
+            } label: {
+                Text("Change View")
+            }.padding()
+            
+
+            
+            if selectedView  {
+               ImageSavedView()
+            }
+            else {
+                AppStoreAppDownloadView()
+            }
+            
+        }
     }
 }
 
